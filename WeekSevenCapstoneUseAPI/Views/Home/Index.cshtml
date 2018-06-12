@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<p>Enter a date to get a random fact!</p>
+<form action="/Home/GetRandomFact">
+    <input type="date" name="date"/>
+    <input type="submit" value="Submit" />
+</form>
